@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <NavHeader />
       <div className={styles.container}>
-        <div>Hello world</div>
+        <div>Hello world 2</div>
       </div>
     </>
   );
