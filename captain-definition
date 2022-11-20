@@ -8,6 +8,7 @@
     "RUN npm install && npm cache clean --force",
     "RUN npm build",
     "COPY ./ /usr/src/app",
+    "COPY ./.next /usr/src/app/.next",
     "ENV NODE_ENV production",
     "ENV PORT 80",
     "EXPOSE 80",
